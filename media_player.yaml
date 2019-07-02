@@ -1,0 +1,13 @@
+- platform: webostv
+  host: 192.168.123.36
+  name: LG Camera
+  filename: camera.conf
+  timeout: 5
+  customize:
+    sources:
+      - Live TV
+      - Apple TV
+  turn_on_action:
+    service: wake_on_lan.send_magic_packet
+    data:
+      mac: "E8:F2:E2:9D:09:2B"

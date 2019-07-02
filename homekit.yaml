@@ -1,0 +1,7 @@
+homekit:
+  filter:
+    include_domains:
+      - sensor
+      - camera
+    exclude_entities:
+      - person.marco

@@ -1,0 +1,19 @@
+#sensor:
+- platform: netatmo
+  station: TheGod_Weather
+  modules:
+    Balcone:
+      - temperature
+      - humidity
+      - battery_percent
+    Camera:
+      - temperature
+      - co2
+      - humidity
+      - battery_percent
+    Soggiorno:
+      - temperature
+      - pressure
+      - co2
+      - noise
+      - humidity

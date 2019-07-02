@@ -1,0 +1,41 @@
+- platform: foscam
+  name: Cam_Office
+  ip: 192.168.123.44
+  username: Marco
+  password: M4rc03S4r4!
+  port: 5103
+  rtsp_port: 5103
+
+- platform: foscam
+  name: Cam_Leaving
+  ip: 192.168.123.42
+  username: Marco
+  password: M4rc03S4r4!
+  port: 5102
+  rtsp_port: 5102
+
+- platform: foscam
+  name: Cam_External
+  ip: 192.168.123.45
+  username: Marco
+  password: M4rc03S4r4!
+  port: 5104
+  rtsp_port: 5104
+
+- platform: foscam
+  name: Cam_Kitchen
+  ip: 192.168.123.41
+  username: Marco
+  password: M4rc03S4r4!
+  port: 5100
+  rtsp_port: 5100
+
+- platform: foscam
+  name: Cam_UnderStair
+  ip: 192.168.123.43
+  username: Marco
+  password: M4rc03S4r4!
+  port: 5101
+  rtsp_port: 5101
+
+  #- platform: netatmo
